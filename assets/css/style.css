@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height:100%;
+ }
+
+body{
+    background: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:hover{
+    color: #6495ED;
+    font-size: bold;
+    font-size: 15px;
+} 
+
+header{
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    height: 80px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background-color:#555555;
+    bottom: 0;
+}
+
+h1{
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+
+
+ a{
+    text-decoration: none;
+    line-height: 80px;
+    color: grey
+ }
+
+ form{
+    padding-top: 20px;
+    line-height: 30px;
+     
+ }
+
+ input{
+    height: 25px;
+    width: 100%;
+ }
+
+ /*wrap-div*/
+#container{
+    padding-bottom: 80px;
+}
+
+#message{
+    width: 100%;
+    height: 150px;
+}
+
+/*bunus div*/
+.forFooter{
+    position: relative;
+    min-height: 100%;
+}
+
+/*index page photo*/
+.myPhoto{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 30px;
+    opacity: 1.0;
+}
+
+.itsName{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 80px;
+}
+
+.myName{
+    background-color: #4aaaa5;
+    height: 80px;
+    color: white;
+    width: 150px;
+    float: left;
+    left: 0;
+}
+
+/*nav part*/
+.links{
+    height: 80px;
+    float: right;
+    width: 220px;
+   
+}
+
+/*main div*/
+.mainbox{
+    background-color: lightyellow;
+    width: 960px;
+    height: 580px;
+    margin: 0 auto;
+    opacity: 0.95;
+    border: 2px solid #dddddd;
+    border-radius: 25px;
+}
+
+.second-box{
+    padding: 30px 20px;
+}
+
+.headerbox{
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+/*background div*/
+.bk-image{
+    height: 650px;
+    padding-top: 20px;
+    background: url(https://data.whicdn.com/images/12042297/large.jpg);
+}
+
+.info{
+    padding-top: 15px;
+}
+
+.button{
+    width: 70px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+/*copyright text*/
+.copyright{
+    text-align: center;
+    padding-top: 35px;
+}
+
+/*self-introdution*/
+.selfWords{
+   line-height: 30px;
+}
+
+.myPortfolio{
+    padding-top: 20px;
+}
+
+/*my photos*/
+.portfolios{
+    width: 200px;
+    height: 200px;
+    float: left;
+  
+}
+
+/*Portfolio frame div*/
+.frame{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+
+/*Portfolios comments*/
+.comment{
+    width: 95%;
+    height: 25px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 10px; 
+}

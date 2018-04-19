@@ -1,34 +1,59 @@
 <!DOCTYPE html>
-
-<html>
+<html> 
     <head>
-        
-        <title></title>
-        
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Index</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--CSS link-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <div id="maindiv">
-            <div class="container">
-                <header class="headbox"><p class="headerp">Header</p></header>
-                <nav class="navbox"><p class="cwords">nav</p></nav>
-                <div class="secpart">
-                    <section class="secbox">  
-                        <p>section</p>
-                        <article class="artbox">
-                            <p class="diffp">article</p>
-                            <div class="h1box"><h1>h1,h2,h3</h1></div>
-                            <div class="parbox"><p class="cword">p</p></div>
-                        </article>
-                    </section>
-                    <aside class="asibox"><p>aside</p></aside>
+        <div class="forFooter">
+            <!--Bunus! This div made for "sticky footer!-->
+            <div id="container">
+                <!--main div-->
+                <header>
+                    <div class="headerbox">
+                        <div class="myName"><p class=itsName>Zhiye Mo</p></div>
+                        <nav class="links">
+                            <a href="index.html">About</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="contact.html">Contact</a>
+                        </nav>
+                    </div>
+                </header>
+                <!--header part ends -->
+
+                <!--main part start-->
+                <hr>
+                <div class="bk-image">
+                    <!--This div for backgroud-->
+                    <article class="mainbox">
+                        <div class="second-box">
+                            <h1>About Me</h1>
+                            <hr>
+                            <section class="info">
+                            <img src="assets/images/myPhoto.png" alt="photo" class="myPhoto">
+                            <div class="selfWords">
+                                <!--self-introduction words-->
+                                <p>Hey, My name is Zhiye Mo~</p>
+                                <p>Crazy D-Wade fan #flash</p>
+                                <p>I graduated from The University of Arizona and I was a sociology students. My interests are reading and fitness. I used  for a Events Company in San Francisco. Now, I want to try something new. I want to be a web developer. </p>
+                            </div>
+                            </section>
+                        </div>
+                    </article>
                 </div>
-                <footer class="footbox"><p class="cwords">footer</p></footer>
             </div>
+        <!--main part ends-->
+
+        <!--footer part start-->
+            <footer>
+                <p class="copyright">Copyright &copy</p>
+            </footer>
+        <!--footer part ends-->
         </div>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
     </body>
 </html>
