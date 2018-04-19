@@ -128,6 +128,7 @@ h1{
 
 /*background div*/
 .bk-image{
+    width: 100%px;
     height: 650px;
     padding-top: 20px;
     background: url(https://data.whicdn.com/images/12042297/large.jpg);
@@ -179,7 +180,7 @@ h1{
 .comment{
     width: 95%;
     height: 25px;
-    background-color: #4aaaa5;
+    background-color: rgb(74, 170, 165);
     color: white;
     text-align: center;
     position: absolute;
